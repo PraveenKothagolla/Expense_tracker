@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+.header-slider{
+    height:100px;
+    display: flex;
+}
+p{font-size: 70%;}
+   
+#h11 {
+    text-align: center;
+    /* color: rgb(226, 235, 224); */
+    color:black;
+   
+} 
+
+#h11 {
+  animation: slide-in 1s ease-out;
+}
+#list1{
+    align-items: center;
+    justify-content: center;
+}
+
+#p{
+    text-align: center;
+}
+#h2{
+    text-align: center;
+}
+#btn{
+    text-align: center;
+    
+}
+#container{
+    line-height:15px;
+
+}
+#has{
+    line-height: 5px;
+}
+
+@media (min-width:1440px) {
+    #has,#has1{
+        margin-left: 150px;
+        p{font-size: 100%;}
+        
+    }
+
+    @media  (max-width:1024px){
+        #has,#has1{
+        margin-left: 400px;
+        
+        
+        
+    }
+
+    }
+    
+}
